@@ -14,3 +14,46 @@ h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
 }
+
+/* header */
+
+#logo {
+    float: left;
+    padding-left: 40px;
+}
+
+#navmenu {
+    float: right;
+    padding-right: 40px;
+}
+
+#navmenu, #logo {
+    line-height: 75px;
+}
+
+#navmenu ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 130%;
+}
+
+#navmenu ul li {
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+#navmenu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#navmenu .current {
+    background-color: #ec7818;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#navmenu ul li a:hover {
+    border-bottom: 1px solid #ec7818;
+}

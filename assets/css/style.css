@@ -62,7 +62,7 @@ h1, h2 {
 
 #hero-outer {
     width: 100%;
-    height: 900px;
+    height: 800px;
     position: relative;
     overflow: hidden;
 }
@@ -70,44 +70,49 @@ h1, h2 {
 #hero-image {
     background: url('/assets/images/hero-image.jpg') center center no-repeat;
     width: 100%;
-    height: 900px;
+    height: 100%;
     background-size: cover;
     overflow: hidden;
 }
 
-#hero-social-links {
-    position: absolute;
-    bottom: 400px;
-    left: 850px;
-}
-
-#hero-social-links ul {
-    display: flex;
-    flex-direction: row;
-    font-size: 130%;
-    background-color: rgba(116,220,218,.8);
-    border-radius: 20px;
-}
-
-#hero-social-links ul li {
-    padding: 0 20px;
-    list-style-type: none;
-    font-size: 200%;
-}
-
-#hero-social-links ul li a {
-    color: #fff;
-}
-
 #welcome-message {
     position: absolute;
-    padding: 5px 10px;
-    border-radius: 20px;
-    bottom: 450px;
-    left: 100px;
+    top: 200px;
+    left: 400px;
     font-size: 200%;
+    border-radius: 20px;
+    padding: 5px 20px;
     color: #fff;
     background: rgba(236,120,24,.9);
+}
+
+#hero-buttons {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+}
+
+#hero-buttons ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 150%;
+}
+
+#hero-buttons ul li {
+    padding: 10px;
+    margin-right: 20px;
+    list-style-type: none;
+    background-color: rgba(116,220,218,1);
+    border-radius: 20px;
+}
+
+#hero-buttons ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero-buttons ul li a:hover {
+    color: #ddd;
 }
 
 /* process overview */

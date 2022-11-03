@@ -180,3 +180,38 @@ h1, h2 {
     top: 150px;
 }
 
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    font-size: 120%;
+}
+
+#footer-nav ul, #footer-social ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-nav ul li, #footer-social ul li {
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+#footer-contact ul li {
+    list-style-type: none;
+}
+
+#footer-nav ul li a, #footer-social ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 150%;
+}
+
+#footer-nav ul li a:hover, #footer-social ul li a:hover {
+    color:#ec7818
+}

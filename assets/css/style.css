@@ -154,5 +154,29 @@ h1, h2 {
 
 /* about us section */
 
+#about-us {
+    display: flex;
+    height: 600px;
+}
 
+#about-us-image {
+    background: url('/assets/images/ennis.jpg') center center no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+#about-us-text {
+    width: 50%;
+    height: 100%;
+    font-size: 200%;
+    color: #fff;
+    background-color: #ec7818;
+}
+
+#about-us-text h2, #about-us-text p {
+    position: relative;
+    padding: 20px;
+    top: 150px;
+}
 

@@ -62,7 +62,7 @@ h1, h2 {
 
 #hero-outer {
     width: 100%;
-    height: 800px;
+    height: 600px;
     position: relative;
     overflow: hidden;
 }
@@ -78,8 +78,8 @@ h1, h2 {
 #welcome-message {
     position: absolute;
     top: 200px;
-    left: 400px;
-    font-size: 200%;
+    left: 150px;
+    font-size: 150%;
     border-radius: 20px;
     padding: 5px 20px;
     color: #fff;
@@ -88,18 +88,18 @@ h1, h2 {
 
 #hero-buttons {
     position: absolute;
-    top: 400px;
-    left: 800px;
+    top: 300px;
+    left: 600px;
 }
 
 #hero-buttons ul {
     display: flex;
     flex-direction: row;
-    font-size: 150%;
+    font-size: 125%;
 }
 
 #hero-buttons ul li {
-    padding: 10px;
+    padding: 5px 10px;
     margin-right: 20px;
     list-style-type: none;
     background-color: rgba(116,220,218,1);

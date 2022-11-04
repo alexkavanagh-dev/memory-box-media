@@ -128,22 +128,28 @@ h1, h2 {
 #process-steps {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 50px ;
+    justify-content: space-evenly;
+    margin-bottom: 60px ;
 }
 
 #process-steps .step {
-    width: 25%;
+    width: 20%;
     text-align: center;
     box-shadow: 3px 5px 20px #ec7818;
     color: #333;
     padding: 10px;
-    border-radius: 20px;   
+    border-radius: 20px; 
+    overflow: hidden;  
 }
 
 #process-steps .step img {
     margin: 20px;
     border-radius: 5%;
+    width: 75%;
+}
+
+#process-steps .step h2, #process-steps .step p {
+    margin-bottom: 10px;
 }
 
 #process-overview > p {

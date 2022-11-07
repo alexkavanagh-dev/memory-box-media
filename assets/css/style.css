@@ -184,11 +184,10 @@ h1, h2 {
     margin: 20px;
     padding: 40px 20px;
     font-size: 125%;
-    row-gap: 40px;
+    row-gap: 10px;
 }
 
 .service img {
-    width: 80%;
     grid-row: 1 / span 3;
     margin: 20px;
     border-radius: 20px;

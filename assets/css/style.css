@@ -202,7 +202,10 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    font-size: 120%;
+    font-size: 120%;    
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #eee;
 }
 
 #footer-nav ul, #footer-social ul {

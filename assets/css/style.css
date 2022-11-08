@@ -26,6 +26,7 @@ header {
     z-index: 1;
     background-color: #fff;
     height: 80px;
+    border-bottom: 1px solid #ddd;
 }
 
 #logo {

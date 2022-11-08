@@ -20,6 +20,14 @@ h1, h2 {
 
 /* header */
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #fff;
+    height: 80px;
+}
+
 #logo {
     float: left;
     padding-left: 40px;
@@ -28,6 +36,7 @@ h1, h2 {
 #navmenu {
     float: right;
     padding-right: 40px;
+    background-color: #fff;
 }
 
 #navmenu, #logo {

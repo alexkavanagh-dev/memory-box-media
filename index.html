@@ -117,7 +117,7 @@
             <p><b>Phone: </b>085-7462482</p>
             <p><b>Email: </b>info@memoryboxmedia.net</p>
             <p><b>Hours: </b>Mon-Sat 9am-6pm</p>
-            <div class="map"></div>
+            <div id="googleMap"></div>
         </div>
     </section>
 
@@ -145,6 +145,22 @@
             </ul>
         </div>
     </footer>
+
+    <!-- scripts for google maps, adapted from https://www.w3schools.com/graphics/google_maps_intro.asp  -->
+
+    <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(52.8474, -8.9887),
+          zoom:15,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+        
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwTzsKgK4P50n_47TT8TV2j9khzxP_BJU&callback=myMap"></script>
+
+    <!-- font awesome script -->
 
     <script src="https://kit.fontawesome.com/79459ea27b.js" crossorigin="anonymous"></script>
 </body>

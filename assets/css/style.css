@@ -24,6 +24,10 @@ header {
     position: sticky;
     top: 0;
     z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: #fff;
     height: 80px;
     border-bottom: 1px solid #ddd;
@@ -34,24 +38,17 @@ header h1 {
 }
 
 #logo {
-    float: left;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 #navmenu {
-    float: right;
-    padding-right: 40px;
-    background-color: #fff;
-}
-
-#navmenu, #logo {
-    line-height: 80px;
+    margin-right: 40px;
 }
 
 #navmenu ul {
     display: flex;
     flex-direction: row;
-    font-size: 130%;
+    font-size: 125%;
 }
 
 #navmenu ul li {

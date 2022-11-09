@@ -229,7 +229,7 @@ header h1 {
 }
 
 #about-us-image {
-    background: url('../images/ennis.jpg') center center no-repeat;
+    background: url('../images/ennis.jpg') no-repeat center center;
     background-size: cover;
     width: 50%;
     height: 100%;
@@ -238,7 +238,7 @@ header h1 {
 #about-us-text {
     width: 50%;
     height: 100%;
-    font-size: 200%;
+    font-size: 150%;
     color: #fff;
     background-color: #ec7818;
 }
@@ -246,7 +246,7 @@ header h1 {
 #about-us-text h2, #about-us-text p {
     position: relative;
     padding: 20px;
-    top: 150px;
+    top: 25%;
 }
 
 /* contact us */

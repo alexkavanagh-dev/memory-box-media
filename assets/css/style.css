@@ -362,5 +362,27 @@ footer p {
     #navmenu {
         margin: 0 auto;
     }
+
+    #welcome-message {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hero-buttons {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #process-steps {
+        flex-direction: column;
+    }
+
+    #process-steps .step {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-bottom: 40px;
+    }
 }
 

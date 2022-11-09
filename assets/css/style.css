@@ -163,8 +163,10 @@ header h1 {
 }
 
 #process-overview > p {
-    width: 60%;
-    margin: 60px auto;
+    max-width: 1000px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-weight: bold;
     padding: 20px;
@@ -177,35 +179,39 @@ header h1 {
 
 #services {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto;
     max-width: 1600px;
-    margin: 60px auto;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.service:first-child {
+    border: none;
 }
 
 .service {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    box-shadow: 3px 5px 20px #ec7818;
-    border-radius: 20px;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    text-align: center;
+    border-left: 2px solid #ec7818;
+    margin: 20px auto;
     padding: 40px 20px;
     font-size: 125%;
-    row-gap: 10px;
 }
 
 .service img {
-    grid-row: 1 / span 3;
-    margin: 20px;
+    width: 250px;
+    margin: 0 auto;
     border-radius: 20px;
 }
 
 .service a {  
     text-align: center;
-    margin: auto;
     text-decoration: none;
     color: #fff;
     background-color: rgba(116,220,218,1);
+    margin: 0 auto;
     border-radius: 20px;
     padding: 5px 10px;
 }
@@ -219,6 +225,7 @@ header h1 {
 #about-us {
     display: flex;
     height: 600px;
+    margin-top: 80px;
 }
 
 #about-us-image {

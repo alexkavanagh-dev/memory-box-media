@@ -341,3 +341,16 @@ footer {
 footer p {
     padding-top: 20px;
 }
+
+/* media queries */
+
+/* for screen sizes 1200px wide and under  */
+@media screen and (max-width: 1200px) {
+    #services {
+        grid-template-columns: auto auto;
+    }
+
+    .service:nth-child(3) {
+        border: none;
+    }
+}

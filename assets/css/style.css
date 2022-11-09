@@ -43,16 +43,17 @@ header h1 {
 
 #navmenu {
     margin-right: 40px;
+    width: 300px;
 }
 
 #navmenu ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     font-size: 125%;
 }
 
 #navmenu ul li {
-    padding-right: 40px;
     list-style-type: none;
 }
 
@@ -351,3 +352,20 @@ footer p {
         border: none;
     }
 }
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        height: 160px;
+        justify-content: center;
+    }
+
+    #logo {
+        margin: 10px auto;
+    }
+
+    #navmenu {
+        margin: 0 auto;
+    }
+}
+

@@ -348,6 +348,7 @@ footer p {
     }
 }
 
+/* for screen sizes 800px and under */
 @media screen and (max-width: 800px) {
     header {
         flex-direction: column;

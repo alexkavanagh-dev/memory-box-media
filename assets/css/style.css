@@ -177,8 +177,9 @@ header h1 {
     margin: 0 auto;
     padding-top: 80px;
 }
+
 .service:first-child {
-    border: none;
+    border-left: none;
 }
 
 .service {
@@ -276,7 +277,6 @@ header h1 {
 
 #contact-info {
     width: 50%;
-
     text-align: right;
 }
 
@@ -338,7 +338,7 @@ footer p {
 /* media queries */
 
 /* for screen sizes 1200px wide and under  */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width:800px) and (max-width: 1200px) {
     #services {
         grid-template-columns: auto auto;
     }
@@ -364,6 +364,10 @@ footer p {
         margin: 0 auto;
     }
 
+    #hero-buttons ul li {
+        margin: 0 5px;
+    }
+
     #welcome-message {
         width: 300px;
         margin-left: auto;
@@ -384,6 +388,39 @@ footer p {
         margin-right: auto;
         width: 80%;
         margin-bottom: 40px;
+    }
+
+    #services {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        padding-top: 120px;
+    }
+
+    .service {
+        border-bottom: 2px solid #ec7818;
+        border-left: none;
+    }
+
+    #about-us-image {
+        display: none;
+    }
+
+    #about-us-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-us {
+        flex-direction: column;
+    }
+
+    #contact-form, #contact-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-form form {
+        width: 100%;  
     }
 }
 

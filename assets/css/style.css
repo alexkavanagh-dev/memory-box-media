@@ -18,6 +18,17 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+.button {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 150%;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: rgba(116,220,218,1);
+    color: #fff;
+}
+
 /* header */
 
 header {
@@ -98,19 +109,11 @@ header h1 {
 #hero-buttons ul {
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 
 #hero-buttons ul li {
-    list-style-type: none;
-    border-radius: 20px;
-    padding: 5px 10px;
     margin-right: 20px;
-    background-color: rgba(116,220,218,1);
-}
-
-#hero-buttons ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 #hero-buttons ul li a:hover {
@@ -200,14 +203,8 @@ header h1 {
     width: 250px;
 }
 
-.service a {  
-    text-align: center;
-    text-decoration: none;
-    border-radius: 20px;
-    background-color: rgba(116,220,218,1);
+.service a {
     margin: 0 auto;
-    padding: 5px 10px;
-    color: #fff;
 }
 
 .service a:hover {
@@ -350,6 +347,10 @@ footer p {
 
 /* for screen sizes 800px and under */
 @media screen and (max-width: 800px) {
+    .button {
+        margin: 5px;
+    }
+
     header {
         flex-direction: column;
         justify-content: center;
@@ -364,17 +365,16 @@ footer p {
         margin: 0 auto;
     }
 
-    #hero-buttons ul li {
-        margin: 0 5px;
+    #hero-buttons {
+        margin: 0 auto;
     }
 
+    #hero-buttons ul li {
+        margin: auto;
+    }
+    
     #welcome-message {
         width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #hero-buttons {
         margin-left: auto;
         margin-right: auto;
     }

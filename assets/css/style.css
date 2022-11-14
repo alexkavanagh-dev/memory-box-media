@@ -29,6 +29,10 @@ h1, h2 {
     color: #fff;
 }
 
+.button:hover {
+    background-color: #62c3c1;
+}
+
 /* header */
 
 header {
@@ -116,10 +120,6 @@ header h1 {
     margin-right: 20px;
 }
 
-#hero-buttons ul li a:hover {
-    color: #ddd;
-}
-
 /* process overview */
 
 #process-overview > h2 {
@@ -205,10 +205,6 @@ header h1 {
 
 .service a {
     margin: 0 auto;
-}
-
-.service a:hover {
-    color: #ddd;
 }
 
 /* about us */

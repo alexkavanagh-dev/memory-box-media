@@ -426,6 +426,10 @@ footer p {
         width: 100%;  
     }
 
+    #contact-info #googleMap {
+        height: 300px;
+    }
+
     #footer-social {
         width: 100%;
     }

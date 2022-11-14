@@ -397,6 +397,7 @@ footer p {
     .service {
         border-bottom: 2px solid #ec7818;
         border-left: none;
+        height: 500px;
     }
 
     #about-us-image {
@@ -415,10 +416,19 @@ footer p {
     #contact-form, #contact-info {
         width: 100%;
         text-align: center;
+        margin-bottom: 40px;
     }
 
     #contact-form form {
         width: 100%;  
+    }
+
+    #footer-social {
+        width: 100%;
+    }
+
+    #footer-social ul li {
+        margin: 0 auto;
     }
 }
 

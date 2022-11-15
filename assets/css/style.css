@@ -361,6 +361,7 @@ footer p {
 
     #logo {
         margin: 10px auto;
+        width: 300px;
     }
 
     #navmenu {
@@ -401,7 +402,6 @@ footer p {
     .service {
         border-bottom: 2px solid #ec7818;
         border-left: none;
-        height: 500px;
     }
 
     #about-us-image {

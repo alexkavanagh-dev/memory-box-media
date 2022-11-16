@@ -415,6 +415,7 @@ footer p {
 
     #contact-us {
         flex-direction: column;
+        padding-top: 60px;
     }
 
     #contact-form, #contact-info {

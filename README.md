@@ -7,7 +7,7 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
 
 [Link to the live project](https://alexkavanagh-dev.github.io/memory-box-media/)
 
-![responsive image](assets/documentation/responsive-screenshot.png)
+![responsive image](documentation/responsive-screenshot.png)
 
 # Features
 ## Current Features
@@ -17,20 +17,20 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
     - The logo also acts as a link back to the website to refresh the page.
     - The navigation menu contains 3 links: Home, Services and Contact which all link to the relevant section of the page and bring the user directly to them. 
 
-![navigation menu](assets/documentation/navigation-menu.png)
+![navigation menu](documentation/navigation-menu.png)
 
 - Hero Image
     - Shows an eye-catching image that gives the user an immediate impression of what MemoryBoxMedia is centered around i.e. old photos or other media of memories. 
     - The welcome message overlayed on the hero image reinforces what the purpose of MemoryBoxMedia is.
     - Two brightly colored buttons overlayed on the hero image, one labelled 'Price List' and one 'Contact Us' give quick, stand-out routes to what users might want quick access too whether they are new or returning users. 
 
-![hero image](assets/documentation/hero-image.png)
+![hero image](documentation/hero-image.png)
 
 - How It Works Section
     - Shows users a simple three step process that goes into ordering with MemoryBoxMedia, helping ensure users that ordering with MemoryBoxMedia is simple and easy to do for the user.
     - The paragraph below informs the user that media restoration is time sensitive since physical media degrades over time to encourage users to place orders.
 
-![how it works](assets/documentation/how-it-works.png)
+![how it works](documentation/how-it-works.png)
 
 - Services Section 
     - Shows the four services being offered with some details about each one and the cost of that service.
@@ -38,13 +38,13 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
     - There is a simple solid border between each service to make each one distinct and easy to seperate from each other. 
     - This section uses CSS Grid for responsiveness and breaks down from a 1x4 grid to a 2x2 grid to a 4x1 grid as the screen gets smaller. 
 
-![services](assets/documentation/services.png)
+![services](documentation/services.png)
 
 - About Us Section
     - There is a short paragraph that provides some details about MemoryBoxMedia to inform user about who they are ordering from and how long they have been around. 
     - There is a complementary image of Ennis next to the text section, showing a bit of where MemoryBoxMedia is. 
 
-![About us section](assets/documentation/about-us.png)
+![About us section](documentation/about-us.png)
 
 - Contact Section
     - This section has a form on one side which allows the user to fill out their name, email address and a message they would like to send to the business.
@@ -53,13 +53,13 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
     - On the opposite side to the form is the contact details of MemoryBoxMedia including their phone number, email address and the active hours of the business to give the user more options of getting in contact. 
     - There is an interactive Google map below the contact information showing where Ennis is in Ireland, giving unfamiliar users an idea of where the business is located.
 
-![contact](assets/documentation/contact.png)
+![contact](documentation/contact.png)
 
 - Footer
     - The footer contains links to MemoryBoxMedias social media and a link to send them an email. As these are external links, they open in a new tab.
     - This can be useful for the user to keep up to date and see past work MemoryBoxMedia has posted. 
 
-![footer](assets/documentation/footer.png)
+![footer](documentation/footer.png)
 
 ## Possible Future Features
 - Highlight which section of the page the user is currently viewing in the navigation menu (requires javascript).
@@ -73,17 +73,17 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
 - HTML
     - No errors were found when run through the [W3C MarkUp Validator](https://validator.w3.org/).
 
-![html validation](assets/documentation/html-validation.png)
+![html validation](documentation/html-validation.png)
 
 - CSS
     - No errors were found when run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-![css validation](assets/documentation/css-validation.png)
+![css validation](documentation/css-validation.png)
 
 - Lighthouse
     - I confirmed through the lighthouse tester in chrome devtools that the colors and fonts I chose are easy to read and accessible.
 
-![lighthouse results](assets/documentation/lighthouse.png)
+![lighthouse results](documentation/lighthouse.png)
 
 ## Compatibility Testing
 - I checked that the website works as intended on different desktop browsers: Chrome, FireFox and Edge.

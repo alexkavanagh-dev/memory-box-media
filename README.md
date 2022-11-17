@@ -122,6 +122,10 @@ The steps to deploy it were as follows:
 - In the branch section, use the drop down menu to select which branch to deploy. For me, it was just the main branch. 
 - Click the save button and shortly after you can refresh the page where a link will now show up to the deployed website.  
 
+Once deployed to GitHub Pages, the website will automatically update with new changes when commits are made to the main branch.
+
+This repository can be cloned by entering the command `git clone https://github.com/alexkavanagh-dev/memory-box-media.git` into the terminal of your chosen IDE.
+
 The link for my website on GitHub Pages is here: https://alexkavanagh-dev.github.io/memory-box-media/
 
 # Credits

@@ -1,16 +1,18 @@
 # Memory Box Media
-MemoryBoxMedia is a small media business based in Ennis, Co. Clare that provide media restoration services for items such as old photos or video tapes to transfer them into digital media and preserve them.
+MemoryBoxMedia is a small media business based in Ennis, Co. Clare that provide restoration and digitization services for items such as old photos or video tapes to transfer them into digital media forms and preserve them.
 
 The aim of this website is to give users information about MemoryBoxMedia and show users what services they provide, the process and cost of those services and provide ways to get in contact with MemoryBoxMedia to make orders. 
 
 MemoryboxMedia does currently have a website they built themselves through Weebly (http://www.memoryboxmedia.net) however it has not been updated in some time so it does need a refresh and could be improved. The Video Production section of their site was omitted for this project as they are currently much more focused on media restoration now. Their current website was very useful in providing information about their business and some relevant images for my project. 
+
+[Link to the live project](https://alexkavanagh-dev.github.io/memory-box-media/)
 
 ![responsive image](assets/documentation/responsive-screenshot.png)
 
 # Features
 ## Current Features
 - Navigation Menu
-    - the navigation menu is placed at the top of the page and is stickied there so it is usable through the whole page as the user scrolls for quick and easy navigation anywhere on the website. 
+    - The navigation menu is placed at the top of the page and is stickied there so it is usable through the whole page as the user scrolls for quick and easy navigation anywhere on the website. 
     - The MemoryBoxMedia logo is to the left and a navigation menu is to the right.
     - The logo also acts as a link back to the website to refresh the page.
     - The navigation menu contains 3 links: Home, Services and Contact which all link to the relevant section of the page and bring the user directly to them. 
@@ -61,10 +63,10 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
 
 ## Possible Future Features
 - Highlight which section of the page the user is currently viewing in the navigation menu (requires javascript).
-- Make the contact form send an actual email to MemoryBoxMedia.
-- Allowing the user to make an order through the website itself without having to contact anyone. 
-- Live messaging service for users to get quicker responses to queries.
-- A section for reviews from past customers that allows users to add their own reviews with ratings, text review and images. 
+- Make the contact form send a real email to MemoryBoxMedia.
+- Allow the user to make an order through the website itself without having to contact anyone. 
+- Live chat service for users to get quicker responses to queries.
+- A section for reviews from past customers that also allows users to add their own reviews with ratings, text review and images. 
 
 # Testing
 ## Validator Testing
@@ -91,7 +93,7 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
 - I checked that all links work correctly, bringing you to the intended section of the website or intended external website and that external links open in a new tab.
 - I checked that links and buttons that have hover states react accordingly when hovered over.  
 - I checked that the form requires entries for all inputs before being submitted and that the email input only takes an email address. 
-- I checked that the submit button works and the form response page shows up with the correct information displayed. 
+- I checked that the form submit button works and the form response page shows up with the correct information displayed. 
 - I checked that the websites images, stylesheet, links and responsiveness all function the same and as intended when deployed to GitHub Pages.
 - I checked that the interactive Google map shows up correctly and allows user to interact with it. 
 
@@ -105,7 +107,7 @@ MemoryboxMedia does currently have a website they built themselves through Weebl
 - The navigation menu was being covered by the about us section when at the bottom of the website which was preventing the navigation links from being clicked. This was fixed by changing the z-index of the navigation menu to always be on top. 
 - The Google map in the contact section dissappeared when changing the flex direction of its container to column but this was solved by giving it a height specified in pixels when the flex direction had to be changed to column. 
 - On mobile screen sizes, the contact button brought you to the form at the bottom of the page but the first input for 'name' was cut off. I added some padding to the top to fix this. 
-- The hover state for buttons on this website originally darkened the text color but the lighthouse tester showed that this made them hard to read. This was fixed by having the hover state darken the background color instead.
+- The hover state for buttons on this website originally darkened the text color but the lighthouse test showed that this made them hard to read. This was fixed by having the hover state darken the background color instead.
 
 ## Unfixed Bugs
 - No unfixed bugs that I am aware of. 
@@ -129,11 +131,11 @@ The link for my website on GitHub Pages is here: https://alexkavanagh-dev.github
 
 ## Media
 - The image for the MemoryBoxMedia logo and the image of the custom printed DVD next to a VHS tape were taken from the current  MemoryBoxMedia webiste (http://www.memoryboxmedia.net).
-- I used the website, https://imagecolorpicker.com/en, to pull the two colors used in MemoryBoxMedias logo for use as the primary and secondary color of my website. 
-- The picture in the about us section of Ennis was taken from clare.ie
+- I used the website, https://imagecolorpicker.com/en, to pull the two colors used in MemoryBoxMedias logo for use as the primary and secondary colors of my website. 
+- The picture of Ennis in the about us section was taken from clare.ie
 - The remainder of images used were taken from Unsplash.com
 - The icons used in the footer for the social media links are from Font Awesome.
-- I used the https://ui.dev/amiresponsive website to create the image in this readme displaying how the website looks on different devices. 
+- I used the https://ui.dev/amiresponsive website to create the image in this readme showing how the website looks on different devices. 
 
 ## Code
 - The code for the Google map section was adapted from https://www.w3schools.com/graphics/google_maps_intro.asp

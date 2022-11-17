@@ -1,108 +1,141 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Memory Box Media
+MemoryBoxMedia is a small media business based in Ennis, Co. Clare that provide media restoration services for items such as old photos or video tapes to transfer them into digital media and preserve them.
 
-Welcome alexkavanagh8,
+The aim of this website is to give users information about MemoryBoxMedia and show users what services they provide, the process and cost of those services and provide ways to get in contact with MemoryBoxMedia to make orders. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+MemoryboxMedia does currently have a website they built themselves through Weebly (http://www.memoryboxmedia.net) however it has not been updated in some time so it does need a refresh and could be improved. The Video Production section of their site was omitted for this project as they are currently much more focused on media restoration now. Their current website was very useful in providing information about their business and some relevant images for my project. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![responsive image](assets/documentation/responsive-screenshot.png)
 
-## Gitpod Reminders
+# Features
+## Current Features
+- Navigation Menu
+    - the navigation menu is placed at the top of the page and is stickied there so it is usable through the whole page as the user scrolls for quick and easy navigation anywhere on the website. 
+    - The MemoryBoxMedia logo is to the left and a navigation menu is to the right.
+    - The logo also acts as a link back to the website to refresh the page.
+    - The navigation menu contains 3 links: Home, Services and Contact which all link to the relevant section of the page and bring the user directly to them. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![navigation menu](assets/documentation/navigation-menu.png)
 
-`python3 -m http.server`
+- Hero Image
+    - Shows an eye-catching image that gives the user an immediate impression of what MemoryBoxMedia is centered around i.e. old photos or other media of memories. 
+    - The welcome message overlayed on the hero image reinforces what the purpose of MemoryBoxMedia is.
+    - Two brightly colored buttons overlayed on the hero image, one labelled 'Price List' and one 'Contact Us' give quick, stand-out routes to what users might want quick access too whether they are new or returning users. 
 
-A blue button should appear to click: _Make Public_,
+![hero image](assets/documentation/hero-image.png)
 
-Another blue button should appear to click: _Open Browser_.
+- How It Works Section
+    - Shows users a simple three step process that goes into ordering with MemoryBoxMedia, helping ensure users that ordering with MemoryBoxMedia is simple and easy to do for the user.
+    - The paragraph below informs the user that media restoration is time sensitive since physical media degrades over time to encourage users to place orders.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![how it works](assets/documentation/how-it-works.png)
 
-A blue button should appear to click: _Make Public_,
+- Services Section 
+    - Shows the four services being offered with some details about each one and the cost of that service.
+    - The button at the bottom of each service displays the price for that service and when clicked will bring the user to the contact section for quick and easy navigation.
+    - There is a simple solid border between each service to make each one distinct and easy to seperate from each other. 
+    - This section uses CSS Grid for responsiveness and breaks down from a 1x4 grid to a 2x2 grid to a 4x1 grid as the screen gets smaller. 
 
-Another blue button should appear to click: _Open Browser_.
+![services](assets/documentation/services.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- About Us Section
+    - There is a short paragraph that provides some details about MemoryBoxMedia to inform user about who they are ordering from and how long they have been around. 
+    - There is a complementary image of Ennis next to the text section, showing a bit of where MemoryBoxMedia is. 
 
-To log into the Heroku toolbelt CLI:
+![About us section](assets/documentation/about-us.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- Contact Section
+    - This section has a form on one side which allows the user to fill out their name, email address and a message they would like to send to the business.
+    - Each input of the form is required and uses the correct input type for validation. 
+    - The submit button is styled similarly to the buttons elsewhere on the page for consistency in design.
+    - On the opposite side to the form is the contact details of MemoryBoxMedia including their phone number, email address and the active hours of the business to give the user more options of getting in contact. 
+    - There is an interactive Google map below the contact information showing where Ennis is in Ireland, giving unfamiliar users an idea of where the business is located.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![contact](assets/documentation/contact.png)
 
-------
+- Footer
+    - The footer contains links to MemoryBoxMedias social media and a link to send them an email. As these are external links, they open in a new tab.
+    - This can be useful for the user to keep up to date and see past work MemoryBoxMedia has posted. 
 
-## Release History
+![footer](assets/documentation/footer.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Possible Future Features
+- Highlight which section of the page the user is currently viewing in the navigation menu (requires javascript).
+- Make the contact form send an actual email to MemoryBoxMedia.
+- Allowing the user to make an order through the website itself without having to contact anyone. 
+- Live messaging service for users to get quicker responses to queries.
+- A section for reviews from past customers that allows users to add their own reviews with ratings, text review and images. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+# Testing
+## Validator Testing
+- HTML
+    - No errors were found when run through the [W3C MarkUp Validator](https://validator.w3.org/).
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![html validation](assets/documentation/html-validation.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- CSS
+    - No errors were found when run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![css validation](assets/documentation/css-validation.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- Lighthouse
+    - I confirmed through the lighthouse tester in chrome devtools that the colors and fonts I chose are easy to read and accessible.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![lighthouse results](assets/documentation/lighthouse.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Compatibility Testing
+- I checked that the website works as intended on different desktop browsers: Chrome, FireFox and Edge.
+- I also checked that the website works properly on iphone and android phones. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Manual Testing
+- I checked that all links work correctly, bringing you to the intended section of the website or intended external website and that external links open in a new tab.
+- I checked that links and buttons that have hover states react accordingly when hovered over.  
+- I checked that the form requires entries for all inputs before being submitted and that the email input only takes an email address. 
+- I checked that the submit button works and the form response page shows up with the correct information displayed. 
+- I checked that the websites images, stylesheet, links and responsiveness all function the same and as intended when deployed to GitHub Pages.
+- I checked that the interactive Google map shows up correctly and allows user to interact with it. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Responsive Testing
+- I checked that the website is responsive, looks good and works well on different screen sizes as small as the iphone 5 using responsive dev tools. 
+- I double checked the same as above on an actual mobile phone to ensure proper responsiveness. 
+- I checked that the Google map still displayed correctly and was interactive on mobile. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Fixed Bugs
+- The images and stylesheet were not working when I originally deployed to GitHub Pages. This was due to having used absolute file paths instead of relative file paths and fixed by removing the `/` at the beginning of file paths. 
+- The navigation menu was being covered by the about us section when at the bottom of the website which was preventing the navigation links from being clicked. This was fixed by changing the z-index of the navigation menu to always be on top. 
+- The Google map in the contact section dissappeared when changing the flex direction of its container to column but this was solved by giving it a height specified in pixels when the flex direction had to be changed to column. 
+- On mobile screen sizes, the contact button brought you to the form at the bottom of the page but the first input for 'name' was cut off. I added some padding to the top to fix this. 
+- The hover state for buttons on this website originally darkened the text color but the lighthouse tester showed that this made them hard to read. This was fixed by having the hover state darken the background color instead.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Unfixed Bugs
+- No unfixed bugs that I am aware of. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Deployment
+The website is currently deployed to GitHub Pages.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The steps to deploy it were as follows: 
+- Go to the repository that is to be deployed.
+- In that repository, navigate to the settings page.
+- In the sidebar of the settings page, open the Pages tab. 
+- In the branch section, use the drop down menu to select which branch to deploy. For me, it was just the main branch. 
+- Click the save button and shortly after you can refresh the page where a link will now show up to the deployed website.  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The link for my website on GitHub Pages is here: https://alexkavanagh-dev.github.io/memory-box-media/
 
-------
+# Credits
+## Content
 
-## FAQ about the uptime script
+- Text content about MemoryBoxMedia and their services was used for this website.
 
-**Why have you added this script?**
+## Media
+- The image for the MemoryBoxMedia logo and the image of the custom printed DVD next to a VHS tape were taken from the current  MemoryBoxMedia webiste (http://www.memoryboxmedia.net).
+- I used the website, https://imagecolorpicker.com/en, to pull the two colors used in MemoryBoxMedias logo for use as the primary and secondary color of my website. 
+- The picture in the about us section of Ennis was taken from clare.ie
+- The remainder of images used were taken from Unsplash.com
+- The icons used in the footer for the social media links are from Font Awesome.
+- I used the https://ui.dev/amiresponsive website to create the image in this readme displaying how the website looks on different devices. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Code
+- The code for the Google map section was adapted from https://www.w3schools.com/graphics/google_maps_intro.asp
+- The fonts used on this website are the 'Lato' and 'Oswald' fonts imported from Google Fonts.
+- The code for flexbox and CSS grid used here was learned from the W3School sections for each. 
